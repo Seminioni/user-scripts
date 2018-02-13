@@ -18,8 +18,8 @@ if (program.path && program.outDir) {
     plugins: [
       imageminJpegRecompress({
         quality: 'middle',
-        min: '20',
-        max: '70'
+        min: '50',
+        max: '80'
       }),
       imageminPngquant({quality: '65'})
     ]
